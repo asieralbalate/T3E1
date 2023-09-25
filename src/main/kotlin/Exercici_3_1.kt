@@ -2,7 +2,7 @@ import java.io.DataInputStream
 import java.io.FileInputStream
 
 fun main(args: Array<String>) {
-    val f = DataInputStream(FileInputStream("C:\\Users\\asier\\IdeaProjects\\Exercici_3_1\\src\\Rutes.dat"))
+    val f = DataInputStream(FileInputStream("Rutes.dat"))
 
     while (f.available() > 0) {
         println("Ruta: " + f.readUTF())
